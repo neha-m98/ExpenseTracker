@@ -1,0 +1,42 @@
+.expenses-filter {
+    color: white;
+    padding: 0 1rem;
+  }
+.label{
+  font-size: 22px;
+  font-style: normal;
+  font-family: ui-serif;
+  font-variant-caps: small-caps;
+  display: inline-block;
+  float:left;
+}
+  .expenses-filter__control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    width: 90%;
+    float: right;
+  }
+  
+  .selectBox{
+    display: inline-block;
+    font-size: larger;
+    font-family: fangsong;
+    width: 72px;
+    border-radius: 5px;
+    float: right;
+  }
+
+  .expenses-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .expenses-filter select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+  }
