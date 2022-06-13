@@ -26,7 +26,7 @@ const App = () =>{
   return (
     <>
     <h1>Expense Tracker</h1>
-    <NewExpense onAddExpense={addExpenseHandler}/>,
+    <NewExpense onAddExpense={addExpenseHandler}/>
    <Expenses items={expenses}/>
    </>
   )
